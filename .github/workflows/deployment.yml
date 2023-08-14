@@ -23,7 +23,7 @@ jobs:
       - name: Build and deploy image
         run: >
           ./gradlew jib --image=rafagomezp/pokedex-api
-          -Djib.container.baseImage=adoptopenjdk:17-jre-hotspot
+          -Djib.from.image=adoptopenjdk:17-jre-hotspot
           -Djib.to.auth.username=${{ secrets.DOCKERHUB_USER }}
           -Djib.to.auth.password=${{ secrets.DOCKERHUB_PWD }}
           
