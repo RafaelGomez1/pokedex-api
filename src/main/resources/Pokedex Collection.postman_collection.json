@@ -12,24 +12,27 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/pokemons",
+					"raw": "http://64.226.124.118:8084/pokemons",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"64",
+						"226",
+						"124",
+						"118"
 					],
-					"port": "8080",
+					"port": "8084",
 					"path": [
 						"pokemons"
 					],
 					"query": [
 						{
 							"key": "name",
-							"value": "",
+							"value": "w",
 							"disabled": true
 						},
 						{
 							"key": "type",
-							"value": "",
+							"value": "BUG",
 							"disabled": true
 						},
 						{
@@ -55,15 +58,18 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/pokemons/05119199-358f-49e5-841b-1ce6076f3025",
+					"raw": "http://64.226.124.118:8084/pokemons/11ffdfce-27a3-40bf-b421-03691e0cc6fd",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"64",
+						"226",
+						"124",
+						"118"
 					],
-					"port": "8080",
+					"port": "8084",
 					"path": [
 						"pokemons",
-						"05119199-358f-49e5-841b-1ce6076f3025"
+						"11ffdfce-27a3-40bf-b421-03691e0cc6fd"
 					]
 				}
 			},
@@ -79,12 +85,15 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/pokemons",
+					"raw": "http://64.226.124.118:8084/pokemons",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"64",
+						"226",
+						"124",
+						"118"
 					],
-					"port": "8080",
+					"port": "8084",
 					"path": [
 						"pokemons"
 					]
@@ -98,15 +107,18 @@
 				"method": "PATCH",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/pokemons/110a7a5c-3d74-4ed2-bd44-aaeb55e8d44b/mark",
+					"raw": "http://64.226.124.118:8084/pokemons/11ffdfce-27a3-40bf-b421-03691e0cc6fd/mark",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"64",
+						"226",
+						"124",
+						"118"
 					],
-					"port": "8080",
+					"port": "8084",
 					"path": [
 						"pokemons",
-						"110a7a5c-3d74-4ed2-bd44-aaeb55e8d44b",
+						"11ffdfce-27a3-40bf-b421-03691e0cc6fd",
 						"mark"
 					]
 				}
@@ -119,15 +131,18 @@
 				"method": "PATCH",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/pokemons/9a98a543-8f48-4b27-b295-4bd8180e5964/unmark",
+					"raw": "http://64.226.124.118:8084/pokemons/11ffdfce-27a3-40bf-b421-03691e0cc6fd/unmark",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"64",
+						"226",
+						"124",
+						"118"
 					],
-					"port": "8080",
+					"port": "8084",
 					"path": [
 						"pokemons",
-						"9a98a543-8f48-4b27-b295-4bd8180e5964",
+						"11ffdfce-27a3-40bf-b421-03691e0cc6fd",
 						"unmark"
 					]
 				}
