@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "2336d242-2d75-4b32-b30a-476dc5e9b62e",
+		"name": "Pokedex Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19149552"
+	},
+	"item": [
+		{
+			"name": "Search Pokemons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "favorites",
+							"value": "true",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find pokemon by Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/pokemons/05119199-358f-49e5-841b-1ce6076f3025",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons",
+						"05119199-358f-49e5-841b-1ce6076f3025"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Pokemons",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/pokemons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mark pokemon as favorite",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemons/110a7a5c-3d74-4ed2-bd44-aaeb55e8d44b/mark",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons",
+						"110a7a5c-3d74-4ed2-bd44-aaeb55e8d44b",
+						"mark"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mark pokemon as favorite",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemons/9a98a543-8f48-4b27-b295-4bd8180e5964/unmark",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemons",
+						"9a98a543-8f48-4b27-b295-4bd8180e5964",
+						"unmark"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
